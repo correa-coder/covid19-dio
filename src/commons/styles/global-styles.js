@@ -26,6 +26,19 @@ const GlobalStyle = createGlobalStyle`
         background-size:cover;
         background-position:center;
     }
+
+    /* utilities */
+    .mb-2{
+        margin-bottom:1.3rem;
+    }
+
+    .pt-2{
+        padding-top: 1.3rem;
+    }
+
+    .cursor{
+        cursor: pointer;
+    }
 `;
 
 export default GlobalStyle;

@@ -7,7 +7,7 @@ const headers = {
 }
 
 function getCountry(country){
-    return fetch(`${'localhost:5000'}/${country}`, headers)
+    return fetch(`${BASE_URL}/${country}`, headers)
         .then((response) => response.json());
 }
 
